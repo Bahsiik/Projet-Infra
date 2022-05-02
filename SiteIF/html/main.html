@@ -1,41 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Accueil</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/main.css">
-</head>
-<body>
-<header class="header">
-    <a href="" class="logo">Ynov / ARCHITECTURE CLIENT-SERVEUR </a>
-    <input class="menu-btn" type="checkbox" id="menu-btn" />
-    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-    <ul class="menu">
-        <li><a href="../html/main.html">Accueil</a></li>
-        <li><a href="../html/contact.html">Contact</a></li>
-    </ul>
-</header>
-<img class="img_header" src="https://d2homsd77vx6d2.cloudfront.net/cache/f/3/f38921ef8c858513a36818e58892f49c.jpg" alt="" width="1200" height="800">
-<div class="presentation">
-    <p>
-        <br>
-        Ce projet a pour but la mise en place d'un SI d'une petite entreprise.
-        <br>
-        <br> Le but va être de proposer une architecture comprenant :
-        <br>
-        <br> • Un pare-feu (avec DHCP, DNS, filtrage réseau, routage…)
-        <br> • 2 clients (1 Windows et 1 Linux)
-        <br> • 1 serveur linux (sauvegarde du site web)
-        <br> • 1 serveur linux (hébergement site web)
-        <br> L’accès au serveur linux de sauvegarde peut se faire seulement via le réseau interne de la
-        société (soit les deux clients et le serveur web).
-        <br> L’accès au site web peut se faire du réseau internet ou externe.
-    </p>
-    <button class="custom-btn btn-3"><a href="../../Doc Architecture.pdf"><span>Architecture</span></a></button>
-    <button class="custom-btn btn-3"><a href=""><span>Exploitation</span></a></button>
-</div>
-<footer class="footer"> <p>Ynov - 2021/2022</p> </footer>
-</body>
+	<head>
+		<title>Accueil</title>
+		<meta charset="UTF-8">
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<link href="../css/main.css" rel="stylesheet">
+	</head>
+	<body>
+		<header class="header">
+			<a class="logo" href="">Ynov / PROJET INFRA & SI </a>
+			<input class="menu-btn" id="menu-btn" type="checkbox"/>
+			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+			<ul class="menu">
+				<li><a href="../html/main.html">Accueil</a></li>
+				<li><a href="../html/contact.html">Contact</a></li>
+			</ul>
+		</header>
+		<img alt=""
+		     class="img_header" height="800"
+		     src="https://d2homsd77vx6d2.cloudfront.net/cache/f/3/f38921ef8c858513a36818e58892f49c.jpg" width="1200">
+		<div class="presentation">
+			<p>
+				<br>
+				Ce projet a pour but la mise en place d'un SI d'une petite entreprise.
+				<br>
+				<br> Le but va être de proposer une architecture comprenant :
+			<div class="liste">
+				• Un pare-feu (avec DHCP, DNS, filtrage réseau, routage…)
+				<br> • 2 clients (1 Windows et 1 Linux)
+				<br> • 1 serveur linux (sauvegarde du site web)
+				<br> • 1 serveur linux (hébergement site web)
+			</div>
+			<br> Contraintes :
+			<div class="liste">
+				<br> L’accès au serveur linux de sauvegarde peut se faire seulement <br> via le réseau interne de la
+				société (soit les deux clients et le serveur web).
+				<br> L’accès au site web peut se faire du réseau internet ou externe.
+			</div>
+			</p>
+		</div>
+		<div class="boutons">
+			<button class="custom-btn btn-3"><a href="/ressources/Doc%20Architecture.pdf"><span>Architecture</span></a></button>
+			<button class="custom-btn btn-3"><a href="/ressources/Doc%20Exploitation.pdf"><span>Exploitation</span></a>
+			</button>
+		</div>
+		<footer class="footer"><p>Ynov - 2021/2022</p></footer>
+	</body>
 </html>
 
