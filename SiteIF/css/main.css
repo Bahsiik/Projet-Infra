@@ -268,3 +268,8 @@ button {
 .footer p{
     padding-top: 17px;
 }
+
+a{
+    color: white;
+    text-decoration: none;
+}
