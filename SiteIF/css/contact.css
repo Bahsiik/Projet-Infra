@@ -41,8 +41,8 @@ a {
 .header .logo {
     display: block;
     float: left;
-    font-size: 2em;
-    padding: 10px 20px;
+    font-size: 1.3em;
+    padding: 20px 20px;
     text-decoration: none;
 }
 
@@ -137,4 +137,36 @@ a {
     .header .menu-icon {
         display: none;
     }
+}
+
+.contact {
+    padding-top: 15%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mail {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contact img {
+    /*max-width: 500px;*/
+    max-height: 250px;
+    /*margin: 100px;*/
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 11.2%;
+    height: 50px
+}
+
+.footer p{
+    padding-top: 17px;
 }
